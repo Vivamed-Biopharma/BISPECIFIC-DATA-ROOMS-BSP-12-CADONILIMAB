@@ -1,4 +1,3 @@
-```markdown
 # BSP-12-CADONILIMAB: Optimized Bispecific Antibody for Cancer Immunotherapy
 
 ## Executive Summary
@@ -93,4 +92,3 @@ This data room is designed to provide a comprehensive overview of the BSP-12-CAD
 6.  **Utilize the Validation Tools:** Consult the publications and documentation for each of the listed validation tools (Boltz-2, DiffDock-L, ProteinMPNN, RFdiffusion, Aggrescan3D, NetSolP, ThermoMPNN, and DeepImmuno) to understand the parameters and limitations of each analysis.
 
 By carefully reviewing the data in this data room, users can gain a comprehensive understanding of the BSP-12-CADONILIMAB program and its potential for clinical and commercial success.
-```
