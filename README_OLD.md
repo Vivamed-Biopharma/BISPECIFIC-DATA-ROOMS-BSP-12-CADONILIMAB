@@ -24,53 +24,39 @@
 
 ---
 
-## Sequence Validation
+## Sequence Status
 
-All antibody VH/VL sequences validated for correct framework features:
-- Proper N-terminal framework residues (QVQL/EVQL for VH, DIVMTQ/DIQMTQ for VL)
-- Conserved Cysteine residues for disulfide bonds
-- JH/Jkappa joining regions present
-- CDR3 sequences are specific (not generic)
+**Status: IN DEVELOPMENT**
 
-**Status: VALIDATED** (2026-02-06)
+Antibody sequences are currently being optimized through computational design. Final VH/VL sequences with validated framework features will be provided upon completion of the design cycle.
 
 ---
 
-## Computational Data
+## Computational Data Status
 
-### Shared Data Repository
+Computational validation data for this bispecific program is being consolidated and will include:
 
-All computational data for this bispecific program lives in the shared data room:
-**[Bispecific-BSP-02-ELRANATAMAB](https://github.com/Vivamed-Biopharma/Bispecific-BSP-02-ELRANATAMAB)**
+| Analysis Type | Tools | Planned Outputs |
+|---------------|-------|----------------|
+| Structural Modeling | Boltz-2 | CIF structures, confidence scores |
+| Aggregation Analysis | Aggrescan3D | APR mapping reports |
+| Variant Design | ProteinMPNN + RFdiffusion | Optimized sequences |
+| Validation | EvoEF2, NetSolP, ThermoMPNN, DeepImmuno | Stability, solubility, immunogenicity predictions |
 
-| Directory | Files | Content |
-|-----------|-------|---------|
-| `01_reference_data/` | 117 | Boltz-2 (AlphaFold3) CIF structures, MSA files, confidence scores |
-| `02_aggregation_analysis/` | 19 | Aggrescan3D APR mapping |
-| `03_variant_designs/` | 45 | ProteinMPNN + RFdiffusion variant designs |
-| `04_validation_results/` | 256 | EvoEF2 ddG, NetSolP solubility, ThermoMPNN, DeepImmuno |
-
-### Validation Tools
-
-Boltz-2 (AlphaFold3), DiffDock-L, ProteinMPNN, RFdiffusion, Aggrescan3D, NetSolP, ThermoMPNN, DeepImmuno
+**Data availability:** Upon request for due diligence purposes.
 
 ---
 
 ## Original Analysis
 
-# BSP-12-CADONILIMAB
-
-# BSP-12-CADONILIMAB
-
 **Summary:** Optimized tetrameric PD-1 x CTLA-4 bispecific antibody variants with reduced immunogenicity and improved manufacturability for global market entry.
 
-**Patentability Score:** 7.0/10
+**Patentability Score:** 6.75/10
 **In-Silico Score:** 9.0/10
-**Gemini rNPV:** $250.0M
+**Gemini rNPV:** $95.0M
 
 **Patentability Analysis:**
-Cadonilimab (AK104) is prior art (approved 2022). Novelty relies on specific mutations reducing immunogenicity and aggregation. Patentability is strong as a selection invention if unexpected technical effects (e.g., reduced toxicity, better stability) are demonstrated against the parent molecule, addressing known limitations.
+Cadonilimab (AK104) is prior art (approved 2022 in China for cervical cancer). Novelty relies on specific mutations reducing immunogenicity and aggregation. Patentability as a selection invention requires demonstration of unexpected technical effects (e.g., reduced immunogenicity, better stability) against the parent molecule through comparative experimental data.
 
 **In-Silico Analysis:**
-Excellent computational validation using state-of-the-art tools including AlphaFold3 (Boltz-2) for structure, ProteinMPNN/RFdiffusion for variant design, and Aggrescan3D/DeepImmuno for developability. Comprehensive analysis of solubility, stability, and immunogenicity supports the claims.
-
+Computational validation using Boltz-2 for structure prediction, ProteinMPNN/RFdiffusion for variant design, and Aggrescan3D/DeepImmuno for developability assessment. Analysis predicts improvements in solubility, stability, and immunogenicity. Experimental validation required to confirm predictions.
